@@ -1,5 +1,120 @@
 {% extends "base.html" %}
 <!---->
 {% block contant %}
-<h1>About Me</h1>
+<div class="container my-5">
+  <header class="text-center mb-5">
+    <h1 class="display-4">ประวัติส่วนตัว</h1>
+    <h2 class="text-primary">ผู้ช่วยศาสตราจารย์พิศาล สุขขี</h2>
+  </header>
+
+  <main>
+    <section id="personal-info" class="mb-5">
+      <h3 class="section-title text-primary">1. ข้อมูลส่วนตัว</h3>
+      <ul class="list-unstyled">
+        <li><strong>ชื่อ-นามสกุล:</strong> ผู้ช่วยศาสตราจารย์พิศาล สุขขี</li>
+        <li><strong>วัน เดือน ปีเกิด:</strong> [ระบุข้อมูล]</li>
+        <li><strong>ภูมิลำเนา:</strong> [ระบุข้อมูล]</li>
+      </ul>
+    </section>
+
+    <section id="education" class="mb-5">
+      <h3 class="section-title text-primary">2. ประวัติการศึกษา</h3>
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ระดับปริญญาตรี:</strong> [ระบุข้อมูล]</li>
+        <li class="list-group-item"><strong>ระดับปริญญาโท:</strong> [ระบุข้อมูล]</li>
+        <li class="list-group-item"><strong>ระดับปริญญาเอก:</strong> [ระบุข้อมูล ถ้ามี]</li>
+      </ul>
+    </section>
+
+    <section id="work-experience" class="mb-5">
+      <h3 class="section-title text-primary">3. ประวัติการทำงาน</h3>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text"><strong>ตำแหน่งปัจจุบัน:</strong> ผู้ช่วยศาสตราจารย์</p>
+          <p class="card-text"><strong>ประสบการณ์การสอน:</strong> [ระบุข้อมูล]</p>
+          <p class="card-text"><strong>ตำแหน่งทางวิชาการ:</strong> [ระบุข้อมูล]</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="academic-works" class="mb-5">
+      <h3 class="section-title text-primary">4. ผลงานทางวิชาการ</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h4 class="h5">งานวิจัย</h4>
+          <ul>
+            <li>[ระบุชื่องานวิจัย 1]</li>
+            <li>[ระบุชื่องานวิจัย 2]</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h5">บทความวิชาการ</h4>
+          <ul>
+            <li>[ระบุชื่อบทความ 1]</li>
+            <li>[ระบุชื่อบทความ 2]</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4 class="h5">หนังสือหรือตำรา</h4>
+          <ul>
+            <li>[ระบุชื่อหนังสือ/ตำรา 1]</li>
+            <li>[ระบุชื่อหนังสือ/ตำรา 2]</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards" class="mb-5">
+      <h3 class="section-title text-primary">5. รางวัลและเกียรติประวัติ</h3>
+      <ul class="list-group">
+        <li class="list-group-item">[ระบุรางวัล/เกียรติประวัติ 1]</li>
+        <li class="list-group-item">[ระบุรางวัล/เกียรติประวัติ 2]</li>
+      </ul>
+    </section>
+
+    <section id="expertise" class="mb-5">
+      <h3 class="section-title text-primary">6. ความเชี่ยวชาญพิเศษ</h3>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text"><strong>สาขาวิชาที่เชี่ยวชาญ:</strong> [ระบุข้อมูล]</p>
+          <p class="card-text"><strong>ทักษะพิเศษ:</strong> [ระบุข้อมูล]</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities" class="mb-5">
+      <h3 class="section-title text-primary">7. กิจกรรมพิเศษและการบริการสังคม</h3>
+      <ul class="list-group">
+        <li class="list-group-item"><strong>การเป็นวิทยากร:</strong> [ระบุข้อมูล]</li>
+        <li class="list-group-item"><strong>การเป็นที่ปรึกษา:</strong> [ระบุข้อมูล]</li>
+        <li class="list-group-item"><strong>งานบริการวิชาการแก่สังคม:</strong> [ระบุข้อมูล]</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="mb-5">
+      <h3 class="section-title text-primary">8. ข้อมูลการติดต่อ</h3>
+      <div class="card bg-light">
+        <div class="card-body">
+          <p class="card-text"><strong>อีเมล:</strong> [ระบุอีเมล]</p>
+          <p class="card-text"><strong>เบอร์โทรศัพท์:</strong> [ระบุเบอร์โทรศัพท์ ถ้าต้องการเปิดเผย]</p>
+          <p class="card-text"><strong>ที่อยู่สำนักงาน:</strong> [ระบุที่อยู่]</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="mb-5">
+      <h3 class="section-title text-primary">9. ผลงานวิจัยตีพิมพ์</h3>
+      <ul class="list-group">
+        <li class="list-group-item"><strong>งานวิจัยตีพิมพ์ 1:</strong> [ระบุชื่องานวิจัยตีพิมพ์ 1]</li>
+        <li class="list-group-item"><strong>งานวิจัยตีพิมพ์ 2:</strong> [ระบุชื่องานวิจัยตีพิมพ์ 2]</li>
+        <li class="list-group-item"><strong>งานวิจัยตีพิมพ์ 3:</strong> [ระบุชื่องานวิจัยตีพิมพ์ 3]</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="text-center mt-5">
+    <p>&copy; 2024 ผู้ช่วยศาสตราจารย์พิศาล สุขขี. สงวนลิขสิทธิ์.</p>
+  </footer>
+</div>
+
 {% endblock contant %}
