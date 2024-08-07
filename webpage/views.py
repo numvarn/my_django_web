@@ -9,3 +9,7 @@ def indexPage(request):
 
 def aboutPage(request):
     return render(request, "about.html")
+
+
+def forPage(request):
+    return render(request, 'for_test.html')
