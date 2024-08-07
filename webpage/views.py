@@ -12,4 +12,8 @@ def aboutPage(request):
 
 
 def forPage(request):
-    return render(request, 'for_test.html')
+    context = {}
+    lt = list(range(0, 100))
+    context["list"] = lt
+
+    return render(request, 'for_test.html', context)
