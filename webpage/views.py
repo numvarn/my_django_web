@@ -17,3 +17,14 @@ def forPage(request):
     context["list"] = lt
 
     return render(request, 'for_test.html', context)
+
+
+def cardColorPage(request):
+    context = {
+        'color': 'all',
+    }
+
+    if request.method == "GET" and request.GET.get('color') != None:
+        context['color'] = request.GET.get('color')
+
+    return render(request, 'card_color.html', context)
